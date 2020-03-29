@@ -3,8 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="ru.ivvo.buyercalculator.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_kilogram"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/action_kilogram"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_liter"
+        android:orderInCategory="200"
+        android:title="@string/action_liter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_unit"
+        android:orderInCategory="300"
+        android:title="@string/action_unit"
         app:showAsAction="never" />
 </menu>

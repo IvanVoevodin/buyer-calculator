@@ -1,14 +1,10 @@
 package ru.ivvo.buyercalculator
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.TextView
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
+import androidx.fragment.app.Fragment
 
 class SecondFragment : Fragment() {
 
@@ -19,7 +15,7 @@ class SecondFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_second, container, false)
     }
 
-    val args: SecondFragmentArgs by navArgs()
+    /*val args: SecondFragmentArgs by navArgs()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -38,5 +34,5 @@ class SecondFragment : Fragment() {
             randomNumber = random.nextInt(count + 1)
         }
         view.findViewById<TextView>(R.id.textview_random).text = randomNumber.toString()
-    }
+    }*/
 }
