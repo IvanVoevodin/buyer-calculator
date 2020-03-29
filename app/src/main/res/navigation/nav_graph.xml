@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="ru.ivvo.buyercalculator.FirstFragment"
+        android:name="ru.ivvo.buyercalculator.CalculatorFragment"
         tools:layout="@layout/calculator_fragment">
 
         <action
